@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+  background-image: url('12.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 3px;
+  margin: 8px 0;
+
+}
+
+button {
+  background-color: #00468A;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0; //elbo7d benhom
+  border: none;
+  width: 100%;
+}
+
+.signup {
+  background-color: #E05810;
+  width: 100%;
+  padding: 10px 18px;
+  
+}
+
+.img {
+  text-align: left;
+
+}
+.bug {
+  width: 15%;
+  border-radius: 50%;
+}
+.container {
+  padding: 130px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<form method="post">
+  <div class="container">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass" required>
+        
+    <button type="submit" formaction="login.php">Login</button>
+    <label>
+     
+
+    <button type="submit" formaction="/Php_Course/signup.html" formnovalidate="signup" class="signup">SignUp</button>
+
+    <button type="submit" formaction="/Php_Course/Bug.bootstrap" formnovalidate="login" class="signup">Back to home</button>
+
+
+  </div>
+</form>
+
+</body>
+</html>

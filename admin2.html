@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bug Tracking System</title>
+  <h1 style=color:White;">Bug Tracking System</h1>
+<body style="background:#17a2b8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=100">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color"style=background:#2e3b40 !important";>
+  <a class="navbar-brand" href="#">Bug Tracker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Php_Course/dash.html">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Php_Course/About2.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Php_Course/dash.html">DASHBOARD</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">ADMINSTRATION</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a style="background:#0e982e;"class="dropdown-item" href="/Php_Course/Admin.html">ADD NEW PROJECT</a>
+          <a style="background:#0e982e;" class="dropdown-item" href="/Php_Course/Admin1.html">ADD NEW BUG</a>
+          <a style="background:#0e982e;" class="dropdown-item" href="/Php_Course/Admin2.html">ADD USER</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">REPORTS</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+           <a style="background:#0e982e;" class="dropdown-item" href="/Php_Course/displayproject1.php">PROJECT REPORTS</a>
+          <a style="background:#0e982e;" class="dropdown-item" href="/Php_Course/displayproject2.php">BUG REPORTS</a>
+          <a style="background:#0e982e;" class="dropdown-item" href="/Php_Course/displayproject3.php">USER REPORTS</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/Php_Course/bootstrap.html">LOG OUT</a>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
+  </header>
+  <img src="22.png"style="width:1300px;height:200px;   padding: 1px 400px;  margin: 10px 0 10px 0;   border-radius: 5%;">
+
+  <h2 style="color:White;">&emsp;&emsp;&emsp;User Registration</h2>
+  <form method="post">
+  <div class="container"><br>
+    <label for=" name"><b>Name</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="name"  required><br><br>
+
+     <label for="cars"><b>User Level&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;</b></label>
+<select style="padding: 5px 100px" id="cars" name="level">
+  <option value="volvo">Easy</option>
+  <option value="saab">Hard</option>
+  <option value="opel">Medium</option>
+  <option value="audi">Very hard</option>
+</select><br><br>
+
+
+    <label for=" user"><b>UserName</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="user"  required><br><br>
+
+
+     <label for=" pass"><b>Password</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="pass"  required><br><br>
+
+     <label for=" confirm"><b>Confirm Password</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="confirm"  required><br><br>
+
+
+     <label for=" mobile"><b>Mobile</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="mobile"  required><br><br>
+
+     <label for="email"><b>Email</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="email"  required><br><br>
+
+
+     <label for=" date"><b>Date Of Birth</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+    <input style="padding: 5px 48px" type="text" name="date" required><br><br>
+
+
+     <label for=" line1"><b>Address Line 1</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+    <input style="padding: 5px 48px" type="text" name="line1"  required><br><br>
+
+
+
+     <label for=" line2"><b>Address Line 2</b>&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+    <input style="padding: 5px 48px" type="text" name="line2"  required><br><br>
+
+
+    <label for="city"><b>City&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</b></label>
+<select style="padding: 5px 100px" id="cars" name="city" >
+  <option value="Cairo">Cairo</option>
+  <option value="Alex">Alex</option>
+  <option value="El-giza">El-giza</option>
+  <option value="Sharkia">Sharkia</option>
+</select><br><br>
+
+
+
+<label for="state"><b>State&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+<select style="padding: 5px 100px" id="cars" name="state" >
+   <option value="Cairo">Cairo</option>
+  <option value="Alex">Alex</option>
+  <option value="El-giza">El-giza</option>
+  <option value="Sharkia">Sharkia</option>
+</select><br><br>
+
+
+ <label for="country"><b>Country&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;</b></label>
+<select style="padding: 5px 100px" id="cars" name="country" >
+  <option value="volvo">Egypt</option>
+  
+</select><br><br><br>
+
+
+
+
+</form>
+
+
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button  style="background-color:Red;padding:5px 30px;"type="submit" formaction="project3.php" formnovalidate="submit" class="submit">Submit</button>&emsp;&emsp;&emsp;
+  <button style="Background-color:Green; ;padding:5px 38px;" type="submit" formaction="#" formnovalidate="submit" class="submit">Reset</button>&emsp;&emsp;&emsp;
+  <br><br><br><br><br><br><br><br>
+
+  </body>
+  </html>

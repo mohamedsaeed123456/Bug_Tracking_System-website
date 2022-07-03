@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bug Tracking System</title>
+
+<h1 style="background-color:DodgerBlue;">Bug Tracking System</h1>
+ <body style="background:#396592"
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=100">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="btn-group">
+  <a href="#" class="btn btn-info" role="button"  type="submit" formaction="/Php_Course/Bug.bootstrap"style="background-color:Black;" >Home</a>
+  <a href="/Php_Course/About.html" class="btn btn-info" role="button"  type="submit" formaction="/Php_Course/About.html"style="background-color:Black;" >About Us</a>
+  <a href="/Php_Course/login.html" class="btn btn-info" role="button"style="background-color:Black;">Login</a> 
+</div>
+<img src="26.png"style="width:1000px;height:600px;   padding: 100px 5px;  margin: -100px 0 -100px 0;   border-radius: 5%;">
+<div>
+  <h2  style="color:Red;">About Bug Tracking System</h2>
+  <h3  style="color:Black;">Manage Bugs</h3>
+  <p style="color:Red;">Bug Tracking System must be in place for every infrastructure we design. Software is no exception to this. This application which will be implemented on Java platform is designed to track the status of bugs that are reported during Software testing
+  </p>            
+  <img src="19.png" class="img-rounded" alt="Cinque Terre" width="320" height="220">
+</div>
+
+  
+
+
+
+</body>
+</html>

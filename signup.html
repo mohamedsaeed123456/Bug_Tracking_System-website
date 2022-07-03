@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+  body {
+  background-image: url('12.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+}
+
+
+
+button {
+   background-color: #00468A;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0; //elbo7d benhom
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn {
+  background-color: #E05810;
+}
+
+
+.container {
+  padding: 150px;
+}
+
+
+
+</style>
+<body>
+
+<form method="post">
+  <div class="container">
+    <p>Please fill this form to create an account.</p>
+    <hr>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Your Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="pass" required>
+    
+    <p>By creating an account you agree to our <a href="/bug%20tracker/Terms&Privacy/TermsandConditions.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <label>
+      <input type="checkbox" checked="checked" name="agree" style="margin-bottom:15px" required> I agree to the terms
+    </label>
+    
+
+    
+      <button type="submit" class="signup" formaction="signup.php">Sign Up</button>
+   <button type="submit" class="signup" formaction="bootstrap.html "formnovalidate="signup"style="background: #E05810;"
+>Back To Home</button>
+
+
+
+
+
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
